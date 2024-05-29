@@ -1,0 +1,58 @@
+h1 {
+    font-size: 45px ;
+    text-align: center;
+    background-color: rgb(158, 234, 255);
+    color: rgb(145, 145, 145);
+    border: 2px solid black;
+}
+nav {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(164, 212, 213);
+}
+.busqueda {
+    text-align: right;
+    padding: 30px;
+}
+
+.itemcarrusel{
+    height: 420px;
+    overflow: hidden;
+}
+.carrusel{
+    height: 420px;
+    position: relative;
+}
+
+.tarjeta{
+    height: 100%;
+}
+.flechas{
+    position: absolute;
+    top: 0;
+    height: 90%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.city-weather {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    background-color:rgb(185, 227, 229);
+}
+
+.city-weather img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;  /* Ajusta el tamaño del ícono aquí */
+    height: 50px; /* Ajusta el tamaño del ícono aquí */
+}
