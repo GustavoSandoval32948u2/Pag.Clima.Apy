@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '1d8dc8323ad1e77e020b54e6bed1a95f'; // Reemplaza con tu clave API
     const cities = ['London', 'New York', 'Tokyo', 'Paris', 'Sydney'];
     const worldWeatherElement = document.getElementById('world-weather');
 
